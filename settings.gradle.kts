@@ -1,12 +1,14 @@
-pluginManagement {
+rootProject.name = "MapKit-DivKit-Server"
+
+include(":common:view")
+
+dependencyResolutionManagement {
     repositories {
         mavenCentral()
-        gradlePluginPortal()
+        mavenLocal()
+        google()
+        flatDir {
+            dirs("libs")
+        }
     }
 }
-
-plugins {
-    id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
-}
-
-rootProject.name = "MapKit-DivKit-Server"

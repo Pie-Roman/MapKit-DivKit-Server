@@ -1,5 +1,7 @@
 rootProject.name = "MapKit-DivKit-Server"
 
+include(":common:view")
+
 dependencyResolutionManagement {
     repositories {
         mavenCentral()

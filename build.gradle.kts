@@ -16,6 +16,7 @@ java {
 
 dependencies {
     useCommonLibraries()
+    useModule(ProjectModules.Feature.mapFeature)
 }
 
 allprojects {

@@ -7,5 +7,6 @@ object ProjectModules {
 
     object Feature {
         private const val feature = ":feature"
+        const val mapFeature = "$feature:map-feature"
     }
 }

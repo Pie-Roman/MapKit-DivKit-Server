@@ -1,8 +1,6 @@
 ## MapKit DivKit Server Demo app
-___
+
 ![Static Badge](https://img.shields.io/badge/divkit-orange?link=https%3A%2F%2Fgithub.com%2Fdivkit%2Fdivkit) ![Static Badge](https://img.shields.io/badge/mapkit-red?link=https%3A%2F%2Fyandex.ru%2Fmaps-api) ![Static Badge](https://img.shields.io/badge/spring-green)
-
-
 
 Серверная часть приложения, демонстрирующего интеграцию библиотеки Yandex MapKit в DivKit BDUI
 
